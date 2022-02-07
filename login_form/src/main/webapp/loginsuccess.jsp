@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
  pageEncoding="ISO-8859-1"%>
-<%@page import="registration_form.dao.*"%>
+<%@page import="login_form.database.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,8 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
- <h1>User successfully registered!</h1>
- 
-<h3> firname is: ${param.firstname }</h3>
+ <div align="center">
+  <h1>You have logined successfully</h1>
+ </div>
 </body>
 </html>
